@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2024-01-28" view-index="0" gantt-divider-location="383" resource-divider-location="300" version="3.3.3300" locale="en_US">
+    <description/>
+    <view zooming-state="default:7" id="gantt-chart">
+        <field id="tpd3" name="Name" width="225" order="0"/>
+        <field id="tpd4" name="Begin date" width="75" order="1"/>
+        <field id="tpd5" name="End date" width="82" order="2"/>
+        <field id="tpd15" name="Notes" width="20" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="1" uid="3995009101cf4219869e996de4976f2e" name="Task-1 Requirement Gathering" meeting="false" start="2024-01-29" duration="15" complete="0" thirdDate="2024-01-01" thirdDate-constraint="0" expand="true">
+            <task id="0" uid="f244c6e706a44f56b08fa1858e685344" name="SRS" meeting="false" start="2024-01-29" duration="6" complete="0" thirdDate="2024-01-01" thirdDate-constraint="0" expand="true"/>
+            <task id="2" uid="437c4a6cdc044e39ae6ecca323414703" name="SPMP" meeting="false" start="2024-02-06" duration="9" complete="0" thirdDate="2024-01-01" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="3" uid="dbb4f9bb0ea84473b0b70cf3e639eb7e" name="Task-2 Design &amp; Architecture" meeting="false" start="2024-02-19" duration="19" complete="0" thirdDate="2024-01-01" thirdDate-constraint="0" expand="true">
+            <task id="4" uid="8bf5985a44c04b17b90048e8f01e8be6" name="High Level Design" meeting="false" start="2024-02-19" duration="10" complete="0" thirdDate="2024-01-01" thirdDate-constraint="0" expand="true"/>
+            <task id="5" uid="4539c6ce67154162a10bf2ddf3525073" name="Low level design" meeting="false" start="2024-03-01" duration="10" complete="0" thirdDate="2024-01-01" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="6" uid="9564905afae94f6e925cb13f944157ab" name="Task-3 Development" meeting="false" start="2024-03-15" duration="23" complete="0" thirdDate="2024-01-01" thirdDate-constraint="0" expand="true">
+            <task id="7" uid="a4144608d6bf4524a5af558499c361e7" name="Frontend" meeting="false" start="2024-03-15" duration="15" complete="0" thirdDate="2024-01-01" thirdDate-constraint="0" expand="true"/>
+            <task id="8" uid="f55a7ed3349140b389ad91600f7218c1" name="Backend &amp; API Integration" meeting="false" start="2024-03-27" duration="15" complete="0" thirdDate="2024-01-01" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="9" uid="e950429955f549a4b861e4cc2f5034f3" name="Task-4 Testing" meeting="false" start="2024-04-04" duration="12" complete="0" thirdDate="2024-01-01" thirdDate-constraint="0" expand="true">
+            <task id="10" uid="e6ed9ce46fea4c6db6bf06ffbeab0965" name="Test Plan &amp; Cases" meeting="false" start="2024-04-04" duration="11" complete="0" thirdDate="2024-01-01" thirdDate-constraint="0" expand="true"/>
+            <task id="11" uid="5894fac98fc14cac8c2cd9bdd60360e3" name="UAT" meeting="false" start="2024-04-08" duration="10" complete="0" thirdDate="2024-01-01" thirdDate-constraint="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
